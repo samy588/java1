@@ -6,6 +6,7 @@ public static void main(String args[])
 	String command="lscpu";
 	try
 	{
+		String line=sc.nextLine();
 		Process process = Runtime.getRuntime().exec(command);
 		BufferedReader reader= new BufferedReader(
 				new InputStreamReader(process.getInputStream()));
