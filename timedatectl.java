@@ -12,6 +12,7 @@ public static void main(String args[])
 	
 	
 		System.out.println(line);
+		//inputting a line is necessary
 	
 		reader.close();
 		
