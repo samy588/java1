@@ -20,6 +20,7 @@ public static void main(String args[])
 	catch(IOException e)
 	{
 		e.printStackTrace();
+		System.out.println(e);
 	}
 	
 }
